@@ -114,7 +114,7 @@ class LocationController extends Controller
 	 * @param  int  $id
 	 * @return \Illuminate\Http\Response
 	 */
-	public function destroy($id)
+	public function getDelete($id)
 	{
 		//
 		$location = Location::find($id);
